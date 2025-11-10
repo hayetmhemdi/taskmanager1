@@ -26,7 +26,7 @@ jobs:
       - name: Upload build folder
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist/todolist
+          path: dist/todolist/browser 
 
   deploy:
     needs: build
